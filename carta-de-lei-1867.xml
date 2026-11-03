@@ -1,0 +1,570 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="carta-de-lei-1867.css"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" version="3.1">
+  <act name="cartaDeLei" contains="originalVersion">
+    <meta>
+      <identification source="#gvergottini">
+        <FRBRWork>
+          <FRBRthis value="/akn/pt/act/lei/1867-07-01/reforma-penal-e-de-prisoes/!main"/>
+          <FRBRuri value="/akn/pt/act/lei/1867-07-01/reforma-penal-e-de-prisoes"/>
+          <FRBRalias value="Carta de Lei de 1 de julho de 1867" name="short"/>
+          <FRBRdate date="1867-07-01" name="sanction"/>
+          <FRBRauthor href="#cortes" as="#legislature"/>
+          <FRBRcountry value="pt"/>
+          <FRBRsubtype value="cartaDeLei"/>
+          <FRBRname value="reforma-penal-e-de-prisoes"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/pt/act/lei/1867-07-01/reforma-penal-e-de-prisoes/por@1867-07-01/!main"/>
+          <FRBRuri value="/akn/pt/act/lei/1867-07-01/reforma-penal-e-de-prisoes/por@1867-07-01"/>
+          <FRBRdate date="1867-07-01" name="sanction"/>
+          <FRBRauthor href="#cortes" as="#legislature"/>
+          <FRBRlanguage language="por"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/pt/act/lei/1867-07-01/reforma-penal-e-de-prisoes/por@1867-07-01/!main.xml"/>
+          <FRBRuri value="/akn/pt/act/lei/1867-07-01/reforma-penal-e-de-prisoes/por@1867-07-01.xml"/>
+          <FRBRdate date="2026-11-03" name="markup"/>
+          <FRBRauthor href="#gvergottini" as="#editor"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <publication date="1867-07-13" name="Diário de Lisboa" showAs="D. de L. n.° 153, de 13 de julho" number="153"/>
+      <references source="#gvergottini">
+        <TLCPerson eId="luiz" GUID="6D9401F8-256F-44C5-914F-C9A3571DAFFF" href="/ontology/person/pt.luisI" showAs="Dom Luiz"/>
+        <TLCPerson eId="barjona" GUID="B0F922C2-2DEB-4740-9B8C-124A3A284C4A" href="/ontology/person/pt.augustoCesarBarjonaDeFreitas" showAs="Augusto Cesar Barjona de Freitas"/>
+        <TLCPerson eId="seabra" GUID="6E8137D0-70C2-420F-AAB2-B63A4B0EE62C" href="/ontology/person/pt.joaquimPedroDeSeabraJunior" showAs="Joaquim Pedro de Seabra Junior"/>
+        <TLCPerson eId="gvergottini" GUID="E0E46514-D635-445F-BE21-833778C689E7" href="/ontology/person/us.grantVergottini" showAs="Grant Vergottini"/>
+        <TLCOrganization eId="cortes" GUID="E579731C-2A11-4BFA-BB7C-F58E93E8DB19" href="/ontology/organization/pt.cortesGeraes" showAs="Côrtes Geraes"/>
+        <TLCOrganization eId="ministry" GUID="C1ED96CB-DDDF-45D7-8F97-FABC16E9A7E3" href="/ontology/organization/pt.ministerioDosNegociosEcclesiasticosEDeJustica" showAs="Ministerio dos Negocios Ecclesiasticos e de Justiça"/>
+        <TLCRole eId="king" GUID="9C54E284-D9B1-4539-8857-EE2FDECFA8AD" href="/ontology/role/pt.king" showAs="King"/>
+        <TLCRole eId="minister" GUID="FD4E229C-1CAB-4428-A576-79ED22C0B04F" href="/ontology/role/pt.ministerDeEstado" showAs="Ministro e secretario d'estado"/>
+        <TLCRole eId="legislature" GUID="178B4C36-31FE-4B8E-85E7-3B2E00226655" href="/ontology/role/legislature" showAs="Legislature"/>
+        <TLCRole eId="editor" GUID="6FD78610-EF62-4D9A-981B-03BD1ABA7D0A" href="/ontology/role/editor" showAs="Editor"/>
+        <TLCLocation eId="ajuda" GUID="8D46870D-65A7-413A-B02A-A2FEDAC1E9D2" href="/ontology/location/pt.pacoDaAjuda" showAs="Paço da Ajuda"/>
+      </references>
+      <notes source="#gvergottini">
+        <note eId="note_1" GUID="156FBF69-3D72-4BD4-80D4-DB50111683D9"><p>Transcribed from a printed collection of the laws of 1867, pages 269 to 274. Numbering errors in the print, including the repeated Titulo II and the missing Art. 53, are left as printed. The README lists them.</p></note>
+      </notes>
+    </meta>
+    <preface>
+      <p class="ministry">MINISTERIO DOS NEGOCIOS ECCLESIASTICOS E DE JUSTIÇA</p>
+      <p class="directorate">DIRECÇÃO GERAL DOS NEGOCIOS DE JUSTIÇA</p>
+      <p class="section">2.ª REPARTIÇÃO</p>
+    </preface>
+    <preamble>
+      <formula name="enactingFormula"><p><person refersTo="#luiz" as="#king">Dom Luiz</person>, por graça de Deus, Rei de Portugal e dos Algarves, etc. Fazemos saber a todos os nossos subditos, que as côrtes geraes decretaram e nós queremos a lei seguinte:</p></formula>
+    </preamble>
+    <body>
+      <article eId="art_1" GUID="526DE45D-CEFB-437B-B35C-D0C4F555EE38">
+        <num>Artigo 1.°</num>
+        <content><p>É approvada a reforma penal e de prisões, que vae junta a esta lei, e que d'ella faz parte.</p></content>
+      </article>
+      <article eId="art_2" GUID="B1CC6136-CD58-4D37-BDA9-1C33B6EA6CFF">
+        <num>Art. 2.°</num>
+        <content><p>Fica revogada a legislação em contrario.</p></content>
+      </article>
+    </body>
+    <conclusions>
+      <p>Mandâmos portanto a todas as auctoridades a quem o conhecimento e execução da referida lei pertencer, que a cumpram e guardem e façam cumprir e guardar tão inteiramente como n'ella se contém.</p>
+      <p>O ministro e secretario d'estado dos negocios ecclesiasticos e de justiça a faça imprimir, publicar e correr. Dada no <location refersTo="#ajuda">paço da Ajuda</location>, em <date date="1867-07-01">1 de julho de 1867</date>.=<span class="caps">El-Rei</span>, com rubrica e guarda.=<signature refersTo="#barjona"><person refersTo="#barjona" as="#minister">Augusto Cesar Barjona de Freitas</person></signature>.=Logar do sêllo grande das armas reaes.</p>
+      <p>Carta de lei pela qual Vossa Magestade, tendo sanccionado o decreto das côrtes geraes de 26 de junho proximo preterito, que approva a reforma penal e de prisões, a qual faz parte d'esta lei, manda cumprir e guardar o mesmo decreto pela fórma acima declarada.—Para Vossa Magestade ver.=<signature refersTo="#seabra"><person refersTo="#seabra">Joaquim Pedro de Seabra Junior</person></signature> a fez.</p>
+    </conclusions>
+    <attachments>
+      <attachment eId="att_reforma" GUID="56B4C9CE-88AA-4B23-9332-3EA668786F9D">
+        <heading>Reforma penal e de prisões, que faz parte da presente lei de 1 de julho de 1867</heading>
+        <doc name="reforma" contains="originalVersion">
+          <meta>
+      <identification source="#gvergottini_a">
+        <FRBRWork>
+          <FRBRthis value="/akn/pt/act/lei/1867-07-01/reforma-penal-e-de-prisoes/!reforma"/>
+          <FRBRuri value="/akn/pt/act/lei/1867-07-01/reforma-penal-e-de-prisoes"/>
+          <FRBRalias value="Reforma penal e de prisões" name="short"/>
+          <FRBRdate date="1867-07-01" name="sanction"/>
+          <FRBRauthor href="#cortes_a" as="#legislature_a"/>
+          <FRBRcountry value="pt"/>
+        </FRBRWork>
+        <FRBRExpression>
+          <FRBRthis value="/akn/pt/act/lei/1867-07-01/reforma-penal-e-de-prisoes/por@1867-07-01/!reforma"/>
+          <FRBRuri value="/akn/pt/act/lei/1867-07-01/reforma-penal-e-de-prisoes/por@1867-07-01"/>
+          <FRBRdate date="1867-07-01" name="sanction"/>
+          <FRBRauthor href="#cortes_a" as="#legislature_a"/>
+          <FRBRlanguage language="por"/>
+        </FRBRExpression>
+        <FRBRManifestation>
+          <FRBRthis value="/akn/pt/act/lei/1867-07-01/reforma-penal-e-de-prisoes/por@1867-07-01/!reforma.xml"/>
+          <FRBRuri value="/akn/pt/act/lei/1867-07-01/reforma-penal-e-de-prisoes/por@1867-07-01.xml"/>
+          <FRBRdate date="2026-11-03" name="markup"/>
+          <FRBRauthor href="#gvergottini_a" as="#editor_a"/>
+          <FRBRformat value="application/akn+xml"/>
+        </FRBRManifestation>
+      </identification>
+      <references source="#gvergottini_a">
+        <TLCOrganization eId="cortes_a" GUID="01CD5AB5-79B7-4083-838D-80832DC64364" href="/ontology/organization/pt.cortesGeraes" showAs="Côrtes Geraes"/>
+        <TLCPerson eId="gvergottini_a" GUID="D0F0413E-2AF0-4C2B-B0EE-D5E2A1F2AF79" href="/ontology/person/us.grantVergottini" showAs="Grant Vergottini"/>
+        <TLCPerson eId="barjona_a" GUID="2A94919C-BEE8-44E8-8029-22E1DF310536" href="/ontology/person/pt.augustoCesarBarjonaDeFreitas" showAs="Augusto Cesar Barjona de Freitas"/>
+        <TLCRole eId="legislature_a" GUID="868693CA-EDF9-4F1B-AE84-31CB6D5E20D6" href="/ontology/role/legislature" showAs="Legislature"/>
+        <TLCRole eId="editor_a" GUID="0AA18F2B-6913-4932-86D5-07E4FA4420AA" href="/ontology/role/editor" showAs="Editor"/>
+      </references>
+          </meta>
+          <mainBody>
+            <title eId="att_reforma__tit_I" GUID="2285D9E0-4FDD-433A-94AE-99F54CA61CD6">
+              <num>TITULO I</num>
+              <heading>Da abolição da pena de morte e de trabalhos publicos, e da substituição de uma e outra d'estas pena nos crimes civis</heading>
+              <article eId="att_reforma__art_1" GUID="528086A3-1A2B-4530-BADD-5DDF4A96CC82" class="abolition">
+                <num>Artigo 1.°</num>
+                <content><p>Fica abolida a pena de morte.</p></content>
+              </article>
+              <article eId="att_reforma__art_2" GUID="C78328E9-C630-47C6-B2B4-E0183F1966F6">
+                <num>Art. 2.°</num>
+                <content><p>Fica tambem abolida a pena de trabalhos publicos.</p></content>
+              </article>
+              <article eId="att_reforma__art_3" GUID="F0CF33B1-92F7-4F34-B5DB-5D91BC5519C7">
+                <num>Art. 3.°</num>
+                <content><p>Aos crimes a que pelo codigo penal era applicavel a pena de morte, será applicada a pena de prisão cellular perpetua.</p></content>
+              </article>
+              <article eId="att_reforma__art_4" GUID="4BE5C0FC-F1F3-451D-AFAB-19576D6AC6E5">
+                <num>Art. 4.°</num>
+                <intro><p>Aos crimes a que pelo mesmo codigo era applicavel a pena de trabalhos publicos perpetuos será igualmente applicada a pena de oito annos de prisão maior cellular, seguida de degredo em Africa por tempo de doze annos.</p></intro>
+                <paragraph eId="att_reforma__art_4__para_unico" GUID="CB5142D8-63A0-4C54-A212-90BD35B51975"><num>§ unico.</num>
+                  <content><p>O governo distribuirá por classes, em regulamento especial, as differentes possessões em que ha de ser cumprida a ultima das referidas penas, devendo na sentença condemnatoria declarar-se tão sómente a classe para o indicado fim.</p></content>
+                </paragraph>
+              </article>
+              <article eId="att_reforma__art_5" GUID="25E6276C-D889-49B9-93A1-EEB0655904CD">
+                <num>Art. 5.°</num>
+                <content><p>Aos crimes a que pela legislação anterior era applicavel a pena de trabalhos publicos temporarios será applicada a pena de prisão maior cellular por tres annos, seguida de degredo em Africa por tempo de tres até dez annos, nos termos do § unico do artigo antecedente.</p></content>
+              </article>
+            </title>
+            <title eId="att_reforma__tit_II" GUID="4227C310-02D9-4FD0-BF24-02CFF9A4EB33">
+              <num>TITULO II</num>
+              <heading>Das penas de prisão maior e de degredo, e da applicação das mesmas penas</heading>
+              <article eId="att_reforma__art_6" GUID="684808EA-35F3-49EE-90B1-24474AA738CE">
+                <num>Art. 6.°</num>
+                <content><p>A pena de prisão maior perpetua fica abolida.</p></content>
+              </article>
+              <article eId="att_reforma__art_7" GUID="C719D5C7-D9AA-4661-B27F-084C7940C2EC">
+                <num>Art. 7.°</num>
+                <content><p>Aos crimes a que pelo codigo penal era applicavel a pena de prisão maior perpetua será applicada a pena de prisão maior cellular por seis annos, seguida de dez de degredo, nos termos do § unico do artigo <ref href="#att_reforma__art_4">4.°</ref></p></content>
+              </article>
+              <article eId="att_reforma__art_8" GUID="4982BDAB-D110-42F0-823F-56E8954132AB">
+                <num>Art. 8.°</num>
+                <intro><p>Aos crimes a que pelo codigo penal era applicavel a pena de prisão maior temporaria, será applicada a pena de dois a oito annos de prisão maior cellular.</p></intro>
+                <paragraph eId="att_reforma__art_8__para_unico" GUID="D6365A58-A616-4178-90FF-F75169566B3F"><num>§ unico.</num>
+                  <content><p>A mesma pena será applicada aos crimes a que pelo dito codigo era applicavel a pena de degredo temporario.</p></content>
+                </paragraph>
+              </article>
+              <article eId="att_reforma__art_9" GUID="12396455-7679-45A6-B644-E841F26624EE">
+                <num>Art. 9.°</num>
+                <content><p>Aos crimes a que pelo codigo penal era applicavel a pena de degredo perpetuo, será applicada a de degredo por oito annos, precedida da pena de prisão maior cellular por quatro.</p></content>
+              </article>
+              <article eId="att_reforma__art_10" GUID="F2CB7844-AC9F-4FE9-A567-42D6510F71F6">
+                <num>Art. 10.°</num>
+                <content><p>Á pena de degredo, imposta nos termos do artigo anterior, é applicavel o que se acha determinado no § unico do artigo <ref href="#att_reforma__art_4">4.°</ref></p></content>
+              </article>
+            </title>
+            <title eId="att_reforma__tit_II_2" GUID="CA2F9574-4987-458E-AE33-3238046DB196">
+              <num>TITULO II</num>
+              <heading>Da applicação das penas de prisão maior cellular e de degredo, nos casos em que concorrerem circumstancias aggravantes ou attenuantes</heading>
+              <article eId="att_reforma__art_11" GUID="8E8E0124-1C0B-4AF8-A90B-B6673B169DA4">
+                <num>Art. 11.°</num>
+                <content><p>Se nos casos em que forem applicaveis as penas de que tratam os artigos <ref href="#att_reforma__art_4">4.°</ref>, <ref href="#att_reforma__art_7">7.°</ref> e <ref href="#att_reforma__art_9">9.°</ref> concorrerem circumstancias aggravantes ou attenuantes, nos termos dos artigos 77.° e 80.° do codigo penal, a aggravação ou attenuação só terá logar quanto á duração da prisão maior cellular, que poderá ser augmentada com mais dois ou reduzida a menos dois annos.</p></content>
+              </article>
+              <article eId="att_reforma__art_12" GUID="91A20C7A-04BF-40B4-AA8B-A022356FAED7">
+                <num>Art. 12.°</num>
+                <content><p>Se nos crimes a que pelo artigo <ref href="#att_reforma__art_5">5.°</ref> é applicavel a pena de prisão maior cellular por tres annos, seguida de degredo por tempo de tres até dez annos, concorrerem as circumstancias aggravantes ou attenuantes indicadas no artigo antecedente, a pena de prisão maior cellular será, no primeiro caso, aggravada quanto á duração, que não poderá comtudo ser augmentada com mais de outro anno, e no segundo caso attenuada tambem quanto á duração, que todavia não poderá ser reduzida a menos de dois annos.</p></content>
+              </article>
+              <article eId="att_reforma__art_13" GUID="F4421DE2-DCEC-4D69-A17D-AE0AE14491D4">
+                <num>Art. 13.°</num>
+                <intro><p>A pena estabelecida no artigo <ref href="#att_reforma__art_8">8.°</ref> e § unico será aggravada e attenuada dentro do maximo e minimo.</p></intro>
+                <paragraph eId="att_reforma__art_13__para_unico" GUID="4B4EE3D7-7F4D-4356-BB3D-78F88A6EA53F"><num>§ unico.</num>
+                  <content><p>Poderão todavia os juizes, considerando o numero e importancia das circumstancias attenuantes, reduzir a um anno a mencionada pena.</p></content>
+                </paragraph>
+              </article>
+              <article eId="att_reforma__art_14" GUID="2EA5FBA9-E645-4026-B9B9-A12265BEA1AD">
+                <num>Art. 14.°</num>
+                <content><p>No caso de reincidencia, nos termos do artigo 85.° do codigo penal, se a pena correspondente for qualquer das de prisão seguida de degredo, será aggravada, soffrendo o condemnado metade do tempo de degredo em prisão no logar d'este.</p></content>
+              </article>
+              <article eId="att_reforma__art_15" GUID="C72CB358-9B13-418D-9187-85A45B3194AF">
+                <num>Art. 15.°</num>
+                <content><p>Se a pena applicavel for de prisão maior cellular de dois a oito annos, pela primeira reincidencia a condemnação nunca descerá abaixo de dois terços da pena, e pela segunda será necessariamente applicado o maximo da mesma.</p></content>
+              </article>
+              <article eId="att_reforma__art_16" GUID="7F942D64-0E85-4E47-918C-5E02FDED4E5F">
+                <num>Art. 16.°</num>
+                <content><p>No caso de crime frustrado observar-se-hão as seguintes regras:</p><p>Se a pena applicavel, suppondo-se consummado o crime, fosse a do artigo <ref href="#att_reforma__art_3">3.°</ref>, será applicada a do artigo <ref href="#att_reforma__art_4">4.°</ref></p><p>Se a do artigo <ref href="#att_reforma__art_4">4.°</ref>, a do artigo <ref href="#att_reforma__art_7">7.°</ref></p><p>Se a do artigo <ref href="#att_reforma__art_7">7.°</ref>, a do artigo <ref href="#att_reforma__art_9">9.°</ref></p><p>Se a do artigo <ref href="#att_reforma__art_9">9.°</ref>, a do artigo <ref href="#att_reforma__art_5">5.°</ref></p><p>Se a do artigo <ref href="#att_reforma__art_5">5.°</ref>, será applicada a mesma pena, variando o degredo entre tres e seis annos.</p><p>Se a do artigo <ref href="#att_reforma__art_8">8.°</ref> e §, será applicada a mesma, nunca excedente a quatro annos.</p></content>
+              </article>
+              <article eId="att_reforma__art_17" GUID="61BF94EA-6E6F-4021-8A64-915A04610602">
+                <num>Art. 17.°</num>
+                <content><p>Aos auctores de tentativa será applicada a mesma pena que caberia aos auctores do crime frustrado, se n'elle tivessem intervindo circumstancias attenuantes.</p></content>
+              </article>
+              <article eId="att_reforma__art_18" GUID="E1AC3C4C-1A68-4496-9360-18C8CFD454F3">
+                <num>Art. 18.°</num>
+                <content><p>A pena dos cumplices de crime consummado será a mesma que caberia aos auctores do crime frustrado.</p><p>A dos cumplices de crime frustrado a mesma que caberia aos auctores da tentativa d'esse crime.</p><p>A dos cumplices de tentativa a mesma que, reduzida ao minimo, caberia aos auctores d'aquella.</p></content>
+              </article>
+              <article eId="att_reforma__art_19" GUID="B2343C6D-DA5F-4920-B840-9D3F015D0182">
+                <num>Art. 19.°</num>
+                <intro><p>No caso de accumulação de infracções applicar-se-ha a pena mais grave, aggravando-se segundo as regras geraes, em attenção á accumulação dos crimes.</p></intro>
+                <paragraph eId="att_reforma__art_19__para_unico" GUID="137D0A35-E07A-455A-99D4-64082326FA24"><num>§ unico.</num>
+                  <content><p>A pena de prisão maior cellular perpetua não é susceptivel de aggravação.</p></content>
+                </paragraph>
+              </article>
+              <article eId="att_reforma__art_20" GUID="8780715B-0AB4-4EC7-8019-844C164BF399">
+                <num>Art. 20.°</num>
+                <content><p>A pena de prisão maior cellular será cumprida com absoluta e completa separação de dia e de noite entre os condemnados, sem communicação de especie alguma entre elles, e com trabalho obrigatorio na cella para todos os que não forem competentemente declarados incapazes de trabalhar, em attenção á sua idade ou estado de doença.</p></content>
+              </article>
+              <article eId="att_reforma__art_21" GUID="D23290DF-F432-44E3-B1EF-D4A1652C147C">
+                <num>Art. 21.°</num>
+                <intro><p>Os presos terão todas as necessarias e devidas communicações com os empregados da cadeia, e poderão alem d'isso ser visitados por seus parentes e amigos, membros de associações e outras pessoas dedicadas á sua instrucçãomora e lisação, sempre porém de modo e com taes cautelas e restricções, que essas visitas concorram para apressar e consolidar a sua reforma moral, e nunca para mais os corromper, tudo na fórma que for estabelecida nos respectivos regulamentos.</p></intro>
+                <paragraph eId="att_reforma__art_21__para_unico" GUID="C49A657E-A828-4D9D-80D9-08271307338C"><num>§ unico.</num>
+                  <content><p>A visita de pessoas que não forem os empregados de cada uma d'estas prisões, ou as pessoas encarregadas da instrucção e moralisação dos condemnados, só será permittida como excepção e principalmente como premio do bom comportamento dos presos.</p></content>
+                </paragraph>
+              </article>
+              <article eId="att_reforma__art_22" GUID="AA424087-A114-4220-88F9-D88C7C1D8EBF">
+                <num>Art. 22.°</num>
+                <content><p>Os presos terão, quanto possivel, exercicios quotidianos ao ar livre nos pateos ou dependencias da cadeia, mas comtantoque entre elles não haja communicação alguma nem possam reciprocamente conhecer-se.</p></content>
+              </article>
+              <article eId="att_reforma__art_23" GUID="AEDE63FC-FAB1-415E-9246-F78693016FAD">
+                <num>Art. 23.°</num>
+                <intro><p>O producto do trabalho de cada preso será dividido em quatro partes iguaes, uma para o estado, outra para a indemnisação, a haver logar, da parte offendida, outra para soccorro da mulher e filhos do preso se o precisarem, e a quarta, finalmente, para um fundo de reserva que lhe será entregue quando for posto em liberdade.</p></intro>
+                <paragraph eId="att_reforma__art_23__para_unico" GUID="491C5024-29D1-44F8-B4D9-7CD37343BA35"><num>§ unico.</num>
+                  <content><p>Quando o preso não tiver nem mulher nem filhos, ou nem aquella nem estes precisarem, nem houver logar a indemnisação, ou o condemnado tiver bens por onde a mesma possa ser satisfeita, a parte reservada a qualquer d'estas applicações pertencerá ao estado.</p></content>
+                </paragraph>
+              </article>
+              <article eId="att_reforma__art_24" GUID="E92BE562-D416-4210-9291-244D62B68E10">
+                <num>Art. 24.°</num>
+                <intro><p>Os presos que não souberem alguma arte ou officio, receberão na cadeia a instrucção necessaria e relativa ao trabalho e preparação dos meios de existencia honesta depois da soltura, tendo em conta a sua posição social anterior ao crime.</p></intro>
+                <paragraph eId="att_reforma__art_24__para_unico" GUID="183BA332-293B-4DA5-877E-33F6F6580AEB"><num>§ unico.</num>
+                  <content><p>Ensinar-se-ha tambem a instrucção primaria áquelles que a não souberem, e se for possivel as noções scientificas mais necessarias e uteis ao uso do seu officio ou profissão.</p></content>
+                </paragraph>
+              </article>
+              <article eId="att_reforma__art_25" GUID="9F55F5CB-6090-4FA7-B10A-3F644759667E">
+                <num>Art. 25.°</num>
+                <content><p>Todos os presos receberão na cadeia a necessaria educação e instrucção moral e religiosa, que incumbirá aos capellães e professores respectivos, e ás pessoas caridosas dedicadas a essa missão de beneficencia.</p></content>
+              </article>
+              <article eId="att_reforma__art_26" GUID="81D8EEA9-ED21-4CE9-974E-5D00F4F951FE">
+                <num>Art. 26.°</num>
+                <intro><p>As disposições especiaes sobre a separação, o trabalho, o descanso, a instrucção tanto profissional como intellectual, moral e religiosa, e a alimentação dos presos, e sobre a salubridade, limpeza e aceio das prisões, serão estabelecidas e desenvolvidas nos regulamentos do governo, e bem assim nos mesmos regulamentos serão determinados os premios e as penas disciplinares dos sobreditos presos.</p></intro>
+                <paragraph eId="att_reforma__art_26__para_unico" GUID="176DE6B4-6835-43C0-97A9-A5CBCD697A0D"><num>§ unico.</num>
+                  <content><p>Nunca serão empregados como penas disciplinares os açoites, algemas, privações do indispensavel alimento e toda e qualquer especie de tortura.</p></content>
+                </paragraph>
+              </article>
+              <article eId="att_reforma__art_27" GUID="B21909BF-81E8-4AD5-8D05-4EBB4B71C721">
+                <num>Art. 27.°</num>
+                <content><p>A pena de prisão maior cellular será cumprida em cadeias geraes penitenciarias construidas para esse fim.</p></content>
+              </article>
+            </title>
+            <title eId="att_reforma__tit_VI" GUID="B3DD0A4B-36C2-4211-929B-853E1D21D98A">
+              <num>TITULO VI</num>
+              <heading>Das cadeias penitenciarias</heading>
+              <article eId="att_reforma__art_28" GUID="7EC63B9C-395A-414B-835F-E5B0FC50C498">
+                <num>Art. 28.°</num>
+                <intro><p>Haverá no reino tres cadeias geraes penitenciarias, uma no districto da relação de Lisboa e outra no da relação do Porto, para condemnados do sexo masculino, e a terceira, que será tambem no districto d'esta ultima relação, para condemnados do sexo feminino.</p></intro>
+                <paragraph eId="att_reforma__art_28__para_unico" GUID="16AC0055-AF03-416A-880B-70DCD67B3302"><num>§ unico.</num>
+                  <content><p>Estas cadeias serão edificadas em logar apropriado fóra d'aquellas duas cidades, e até quanto seja possivel de qualquer outra povoação.</p></content>
+                </paragraph>
+              </article>
+              <article eId="att_reforma__art_29" GUID="512C7E7E-A7E5-4771-9BE0-C05A451E28AD">
+                <num>Art. 29.°</num>
+                <intro><p>Cada um dos primeiros dois estabelecimentos terá quinhentas cellas, e o terceiro duzentas, para outros tantos condemnados definitivamente á pena de prisão maior cellular, alem de uma capella para a celebração dos actos religiosos, dos aposentos necessarios para os respectivos empregados, de casas para escripturação, archivo, botica, banhos e provisões, e de terrenos adjacentes convenientemente dispostos para passeio e exercicio dos presos.</p></intro>
+                <paragraph eId="att_reforma__art_29__para_unico" GUID="43360418-8FAC-4AFD-8D52-BC7F3D97AAD3"><num>§ unico.</num>
+                  <content><p>Cada um d'estes tres estabelecimentos será cercado por um muro de altura sufficiente para lhes dar segurança e impedir a vista de penetrar da parte exterior no pateo e mais dependencias da prisão.</p></content>
+                </paragraph>
+              </article>
+              <article eId="att_reforma__art_30" GUID="D02F8355-787E-43F6-8451-9F9A2B7D790B">
+                <num>Art. 30.°</num>
+                <content><p>Toda a despeza extraordinaria da construcção d'estas cadeias como a ordinaria do seu custeamento annual, ficam a cargo do estado.</p></content>
+              </article>
+              <article eId="att_reforma__art_31" GUID="4B9EFCA6-C936-4948-A79E-0CD0306BEDB2">
+                <num>Art. 31.°</num>
+                <content><p>No orçamento do ministerio dos negocios ecclesiasticos e de justiça ir-se-hão successivamente consignando em cada um dos futuros annos economicos, e em harmonia com as circumstancias do thesouro, as verbas necessarias para a execução dos artigos <ref href="#att_reforma__art_28">28.°</ref> e <ref href="#att_reforma__art_29">29.°</ref> d'esta lei, ficando o governo obrigado a dar annualmente conta ás côrtes do estado das obras e das sommas n'ellas despendidas.</p></content>
+              </article>
+            </title>
+            <title eId="att_reforma__tit_VII" GUID="404C8240-4295-4F80-92C2-8B05332AB116">
+              <num>TITULO VII</num>
+              <heading>Dos empregados nas cadeias penitenciarias</heading>
+              <article eId="att_reforma__art_32" GUID="0DF59D70-6E54-4069-86EF-74DAB67A0C47">
+                <num>Art. 32.°</num>
+                <content><p>O quadro dos empregados das cadeias penitenciarias, geraes, districtaes e comarcãs será fixado por lei especial.</p></content>
+              </article>
+            </title>
+            <title eId="att_reforma__tit_VIII" GUID="F15A02FC-2CBA-4F14-87BF-6BD94A5D2CFB">
+              <num>TITULO VIII</num>
+              <heading>Da prisão correccional e da applicação e execução da mesma pena</heading>
+              <article eId="att_reforma__art_33" GUID="C6B920C8-6A16-4456-B415-AE551772F7F0">
+                <num>Art. 33.°</num>
+                <intro><p>A pena de prisão correccional continuará a ser applicada aos crimes a que é applicavel pelo codigo penal, mas não poderá exceder a dois annos.</p></intro>
+                <paragraph eId="att_reforma__art_33__para_unico" GUID="8EA00165-99F8-486E-A8E5-EC9A30C982FB"><num>§ unico.</num>
+                  <content><p>A pena de prisão maior cellular de dois a oito annos será considerada immediatamente superior á de prisão correccional nos casos em que a lei decretar sem mais declaração a pena immediatamente superior ou inferior.</p></content>
+                </paragraph>
+              </article>
+              <article eId="att_reforma__art_34" GUID="14D10BFE-4C0A-4ACE-988C-5847726CD8EB">
+                <num>Art. 34.°</num>
+                <intro><p>O condemnado definitivamente á pena de prisão correccional será encerrado em um quarto ou cella, com absoluta e completa separação de quaesquer outros presos, com os quaes não poderá ter communicação alguma.</p></intro>
+                <paragraph eId="att_reforma__art_34__para_1" GUID="F4A6717D-1E66-48C9-93F2-7407BB861F05"><num>§ 1.°</num>
+                  <content><p>É applicavel ao cumprimento d'esta pena o que fica determinado nos artigos <ref href="#att_reforma__art_21">21.°</ref> e <ref href="#att_reforma__art_22">22.°</ref> da presente lei.</p></content>
+                </paragraph>
+                <paragraph eId="att_reforma__art_34__para_2" GUID="951D6BA7-B598-4CCA-AC94-6A2B374DBD63"><num>§ 2.°</num>
+                  <content><p>Para os condemnados porém definitivamente á pena de prisão correccional, a visita de parentes e amigos será pelos regulamentos auctorisada como regra nos casos e pelo modo nos mesmos indicados, e só poderá ser prohibida em castigo do mau comportamento do preso na cadeia, ou por outro justo fundamento.</p></content>
+                </paragraph>
+              </article>
+              <article eId="att_reforma__art_35" GUID="9EFC0DE9-5A94-4CBB-8841-75341D7FF9A1">
+                <num>Art. 35.°</num>
+                <intro><p>A pena de prisão correccional não obriga a trabalho o preso que, alem da quantia devida pelo quarto ou cella respectiva, pagar tambem a despeza feita na cadeia com a sua sustentação, ou que se sustentar á sua custa.</p></intro>
+                <paragraph eId="att_reforma__art_35__para_unico" GUID="30D62AAB-53F7-4F21-8031-E87409B5049F"><num>§ unico.</num>
+                  <content><p>Para tal preso o trabalho é meramente facultativo, mas dar-se-lhe-ha logoque o pedir, e para elle será o producto do mesmo trabalho.</p></content>
+                </paragraph>
+              </article>
+              <article eId="att_reforma__art_36" GUID="60356E77-82C6-42B4-942F-B9A0DC13A25F">
+                <num>Art. 36.°</num>
+                <content><p>Para o preso que não estiver no caso do artigo antecedente, é obrigatorio o trabalho, e o seu producto será dividido em duas partes iguaes, uma para as despezas da cadeia e outra para o preso.</p></content>
+              </article>
+              <article eId="att_reforma__art_37" GUID="5D848030-2507-42B4-8696-35CE47E821BD">
+                <num>Art. 37.°</num>
+                <content><p>O trabalho, quer facultativo, quer obrigatorio, será sempre na propria cella ou quarto, e nunca em commum com os outros presos.</p></content>
+              </article>
+              <article eId="att_reforma__art_38" GUID="0EAD05B4-DB2D-4BE1-A21B-6D98A910FB9A">
+                <num>Art. 38.°</num>
+                <content><p>É applicavel aos presos condemnados á pena de prisão correccional o que para os condemnados á de prisão maior cellular se determina nos artigos <ref href="#att_reforma__art_25">25.°</ref> e <ref href="#att_reforma__art_26">26.°</ref> da presente lei.</p></content>
+              </article>
+              <article eId="att_reforma__art_39" GUID="06852045-5166-4A8B-BD75-900A004E5EC4">
+                <num>Art. 39.°</num>
+                <content><p>E igualmente applicavel aos presos condemnados a mais de um anno de prisão correccional o que no artigo <ref href="#att_reforma__art_24">24.°</ref> da mesma lei se applica aos condemnados a prisão maior cellular.</p></content>
+              </article>
+              <article eId="att_reforma__art_40" GUID="F614DE25-0052-4B72-B08A-8D669F008336">
+                <num>Art. 40.°</num>
+                <content><p>A pena de prisão correccional por mais de tres mezes será cumprida em cadeias districtaes [construidas de novo, ou adaptadas para esse fim.</p></content>
+              </article>
+            </title>
+            <title eId="att_reforma__tit_IX" GUID="25AA33E4-EE86-4CF2-97FA-615720799C78">
+              <num>TITULO IX</num>
+              <heading>Das cadeias districtaes</heading>
+              <article eId="att_reforma__art_41" GUID="24A1A3CB-EF74-4C9D-B78A-A308BA67FC06">
+                <num>Art. 41.°</num>
+                <intro><p>Haverá em cada districto do reino e ilhas adjacentes uma cadeia chamada districtal para o fim indicado no artigo antecedente.</p></intro>
+                <paragraph eId="att_reforma__art_41__para_unico" GUID="53A36BFB-4522-4DB7-A6FC-5A90D7D5BAAF"><num>§ unico.</num>
+                  <content><p>Estas cadeias, nos districtos em que as actuaes se não podérem adaptar com vantagem ao systema de separação, serão edificadas em logar apropriado fóra da capital do districto, mas nas suas proximidades se for possivel.</p></content>
+                </paragraph>
+              </article>
+              <article eId="att_reforma__art_42" GUID="CBAA149A-8A79-44E4-96ED-881ABD6885A1">
+                <num>Art. 42.°</num>
+                <content><p>Cada uma das referidas cadeias terá uma capella para a celebração dos actos religiosos, os aposentos necessarios para os empregados respectivos, casas para escripturação, archivo, banhos e provisões, e os terrenos adjacentes convenientemente dispostos para passeio e exercicio dos presos.</p></content>
+              </article>
+              <article eId="att_reforma__art_43" GUID="6BF94AA7-AC0C-45F1-8AC7-6E1B858159AA">
+                <num>Art. 43.°</num>
+                <intro><p>Em cada uma das cadeias districtaes haverá o numero de cellas que se mostrar sufficiente, segundo o movimento dos presos condemnados nos ultimos tres annos a prisão correccional de mais de tres mezes.</p></intro>
+                <paragraph eId="att_reforma__art_43__para_unico" GUID="98DF1D7E-3801-45E9-9009-FDC116076369"><num>§ unico.</num>
+                  <content><p>Do mesmo modo se calculará o numero de cellas que em cada uma das ditas cadeias se deve reservar para os presos do sexo feminino, não podendo tal numero ser inferior á oitava parte da totalidade das mesmas cellas.</p></content>
+                </paragraph>
+              </article>
+              <article eId="att_reforma__art_44" GUID="4F7172BF-FF71-46A2-AB65-7899DDB106BA">
+                <num>Art. 44.°</num>
+                <content><p>A parte da cadeia para os presos do sexo feminino estará absolutamente separada do resto da mesma cadeia, não havendo communicação alguma interior.</p></content>
+              </article>
+              <article eId="att_reforma__art_45" GUID="FDEC69E4-0FBE-45EA-AAB6-05289F961899">
+                <num>Art. 45.°</num>
+                <content><p>A capella terá uma parte distincta para os presos do referido sexo.</p></content>
+              </article>
+              <article eId="att_reforma__art_46" GUID="252CADF1-264E-4B6E-813A-D9AB7DB52C0A">
+                <num>Art. 46.°</num>
+                <intro><p>As cadeias districtaes, nos districtos em que as actualmente existentes não podérem accommodar-se ao systema de separação e prisão individual, serão construidas de novo á custa dos respectivos districtos.</p></intro>
+                <paragraph eId="att_reforma__art_46__para_1" GUID="F2541EAC-775F-4800-B0C7-09B7253C9B0E"><num>§ 1.°</num>
+                  <content><p>Na despeza da construcção considera-se incluida a da acquisição do terreno necessario para ella.</p></content>
+                </paragraph>
+                <paragraph eId="att_reforma__art_46__para_2" GUID="F0CF4634-2FC4-4C7E-B89A-437CCEBB6FE9"><num>§ 2.°</num>
+                  <content><p>Nos districtos em que as cadeias actuaes se podérem accommodar vantajosamente ao sobredito systema, a despeza com as obras necessarias para esse fim será tambem feita pelos mesmos districtos.</p></content>
+                </paragraph>
+              </article>
+              <article eId="att_reforma__art_47" GUID="2AFA0373-05A8-4F66-8ABE-E26C0E717D85">
+                <num>Art. 47.°</num>
+                <content><p>As obras, tanto para a nova construcção d'estas cadeias, como para as accommodar ao mencionado systema, não poderão começar sem que o plano respectivo e o numero de cellas que devem ter seja approvado pelo ministerio dos negocios ecclesiasticos e de justiça.</p></content>
+              </article>
+              <article eId="att_reforma__art_48" GUID="98E86909-DF6D-4ECC-AA72-05E10D36B3F1">
+                <num>Art. 48.°</num>
+                <intro><p>Alem da despeza extraordinaria de que trata o artigo <ref href="#att_reforma__art_46">46.°</ref> fica tambem a cargo dos districtos a despeza ordinaria das respectivas cadeias, a qual comprehende:</p></intro>
+                <list eId="att_reforma__art_48__list_1" GUID="06602AF2-4003-46BF-895D-B1DB667E17DF">
+                  <point eId="att_reforma__art_48__list_1__point_1" GUID="87D3BB0A-A6F4-4AA5-93BA-F8B606A8B423"><num>1.°</num><content><p>Reparações do edificio;</p></content></point>
+                  <point eId="att_reforma__art_48__list_1__point_2" GUID="EDA1BE40-9F6E-4F64-B920-DBE3E0C17CBD"><num>2.°</num><content><p>Sustentação, vestuario e curativo dos presos;</p></content></point>
+                  <point eId="att_reforma__art_48__list_1__point_3" GUID="4CF447B4-3555-40C9-8A22-8219E7DB65AF"><num>3.°</num><content><p>Mobilia e utensilios, instrumentos e materias primas para o trabalho dos presos;</p></content></point>
+                  <point eId="att_reforma__art_48__list_1__point_4" GUID="45A89CFC-372B-4F7A-AAA5-3A54634AA093"><num>4.°</num><content><p>Vencimento de todos os empregados superiores e subalternos da cadeia.</p></content></point>
+                </list>
+              </article>
+              <article eId="att_reforma__art_49" GUID="5FB95EC4-DAB4-424F-A33E-248460AD4612">
+                <num>Art. 49.°</num>
+                <intro><p>A receita das cadeias districtaes será composta:</p></intro>
+                <list eId="att_reforma__art_49__list_1" GUID="6A5DCC8A-FFFC-4B2B-A9C7-4DD27976C665">
+                  <point eId="att_reforma__art_49__list_1__point_1" GUID="D3487D7A-974A-475A-89FC-78AFD4CCA9DE"><num>1.°</num><content><p>Das quantias pagas pelos presos, nos termos do artigo <ref href="#att_reforma__art_35">35.°</ref>;</p></content></point>
+                  <point eId="att_reforma__art_49__list_1__point_2" GUID="EF960B84-0E62-4558-BAD9-447837759251"><num>2.°</num><content><p>Da metade do producto do trabalho dos presos, nos termos do artigo <ref href="#att_reforma__art_36">36.°</ref>;</p></content></point>
+                  <point eId="att_reforma__art_49__list_1__point_3" GUID="AD65369A-C57A-40DB-B20A-C24790CE82B7"><num>3.°</num><content><p>Do producto de quaesquer donativos ou quantias que, em virtude de disposição testamentaria ou <i>inter vivos</i>, forem dadas para esse fim;</p></content></point>
+                  <point eId="att_reforma__art_49__list_1__point_4" GUID="40909D5B-D917-4315-8912-E6D0D70C9201"><num>4.°</num><content><p>Do producto da venda das cadeias actuaes, em harmonia com o que se acha disposto no artigo <ref href="#att_reforma__art_62">62.°</ref>;</p></content></point>
+                  <point eId="att_reforma__art_49__list_1__point_5" GUID="81307CDD-DDA0-4A62-8D00-ACA744F9E43C"><num>5.°</num><content><p>De uma contribuição paga pelo districto para preencher o que faltar.</p></content></point>
+                </list>
+                <paragraph eId="att_reforma__art_49__para_unico" GUID="C924150F-941D-4C63-BEA6-49BBDD7707F8"><num>§ unico.</num>
+                  <content><p>Esta contribuição será votada annualmente pelas juntas geraes dos districtos, e cobrada conjunctamente com os impostos geraes do estado, sob a denominação de imposto para a cadeia districtal e logo arrecadada nos cofres geraes dos districtos, ficando ali á ordem das respectivas commissões administrativas.</p></content>
+                </paragraph>
+              </article>
+            </title>
+            <title eId="att_reforma__tit_X" GUID="7FEC9202-96BA-414C-9BAB-70676E35D741">
+              <num>TITULO X</num>
+              <heading>Da administração das cadeias districtaes</heading>
+              <article eId="att_reforma__art_50" GUID="58F7D77F-D46B-48A2-9CBB-AD4E997B04A5">
+                <num>Art. 50.°</num>
+                <intro><p>Em cada uma das capitaes dos districtos do reino e ilhas adjacentes é creada uma commissão administradora da cadeia districtal.</p></intro>
+                <paragraph eId="att_reforma__art_50__para_unico" GUID="4D00EF5B-B814-4F22-97B5-7E709331E917"><num>§ unico.</num>
+                  <intro><p>Esta commissão será composta:</p></intro>
+                  <list eId="att_reforma__art_50__para_unico__list_1" GUID="73ADB39D-C538-42F3-ABB4-0FD7A55156CE">
+                    <point eId="att_reforma__art_50__para_unico__list_1__point_1" GUID="686E5293-26D7-4BED-880C-E330815C790A"><num>1.°</num><content><p>Do governador civil do districto, que será o presidente;</p></content></point>
+                    <point eId="att_reforma__art_50__para_unico__list_1__point_2" GUID="C9AB31F8-510F-47A0-8224-1143576A5F8E"><num>2.°</num><content><p>Do presidente da camara municipal;</p></content></point>
+                    <point eId="att_reforma__art_50__para_unico__list_1__point_3" GUID="DF0DBA22-18FF-47C4-82C1-64647DA5EAFB"><num>3.°</num><content><p>Do provedor da misericordia;</p></content></point>
+                    <point eId="att_reforma__art_50__para_unico__list_1__point_4" GUID="3852DFB4-231B-4729-AA43-0CF7EAD1D4EB"><num>4.°</num><content><p>Do parocho da freguezia mais populosa da capital do districto;</p></content></point>
+                    <point eId="att_reforma__art_50__para_unico__list_1__point_5" GUID="DC283184-EC86-4BE6-8B26-1AE2D0F600A0"><num>5.°</num><content><p>Do medico de partido da camara, e em Lisboa, Porto, Coimbra e Funchal de um medicoeleito pela faculdade ou pela respectiva escola medico-cirurgica;</p></content></point>
+                    <point eId="att_reforma__art_50__para_unico__list_1__point_6" GUID="50CA618E-BDC9-43D8-A18F-3BB21EBA8743"><num>6.°</num><content><p>De tres cidadãos nomeados de dois em dois annos pela camara municipal de entre os quarenta maiores contribuintes.</p></content></point>
+                  </list>
+                </paragraph>
+              </article>
+              <article eId="att_reforma__art_51" GUID="E89B1D93-0011-4821-BF23-C677E6B2635D">
+                <num>Art. 51.°</num>
+                <intro><p>Á commissão administradora da cadeia districtal incumbe:</p></intro>
+                <list eId="att_reforma__art_51__list_1" GUID="204F3C1C-ABCD-44A8-B64D-6C093BAC1675">
+                  <point eId="att_reforma__art_51__list_1__point_1" GUID="CA03A233-DF5E-46A3-A0A1-36C3424B4C9E"><num>1.°</num><content><p>Propor ao governo, depois de haver obtido os esclarecimentos e informações necessarias, na conformidade do artigo <ref href="#att_reforma__art_43">43.°</ref>, qual o numero de cellas que deve ter a cadeia districtal;</p></content></point>
+                  <point eId="att_reforma__art_51__list_1__point_2" GUID="D2CC1D0D-7D77-4A88-82CD-05A0F72E7C54"><num>2.°</num><content><p>Promover o estabelecimento da nova cadeia, escolhendo, em harmonia com o que fica disposto no § unico do artigo <ref href="#att_reforma__art_41">41.°</ref>, o local mais proprio para esse fim, se a cadeia actual não se podér accommodar com vantagem ao systema de prisão individual e de separação entre os presos;</p></content></point>
+                  <point eId="att_reforma__art_51__list_1__point_3" GUID="F7AF4C74-D5F5-43C7-84B0-5003C17E4BA9"><num>3.°</num><content><p>Promover, em logar do estabelecimento da nova cadeia, que a já existente seja accommodada do modo mais cabal, e com a maior promptidão possivel áquelle systema, se tal accommodação se podér realisar com vantagem;</p></content></point>
+                  <point eId="att_reforma__art_51__list_1__point_4" GUID="A1B2D589-B9B5-4D27-B426-875AE7E3E526"><num>4.°</num><content><p>Presidir á construcção dos edificios, que devem ser feitos segundo o plano apresentado pela commissão e approvado pelo governo;</p></content></point>
+                  <point eId="att_reforma__art_51__list_1__point_5" GUID="13886B03-051C-4B18-8E54-0C9DF764C63C"><num>5.°</num><content><p>Zelar o custo do terreno, dos materiaes e da mão de obra, attendendo á solidez do edificio e á mais prudente economia;</p></content></point>
+                  <point eId="att_reforma__art_51__list_1__point_6" GUID="5CF5F52B-AD42-4FDE-BDB9-8964932DB984"><num>6.°</num><content><p>Administrar os fundos pertencentes á cadeia;</p></content></point>
+                  <point eId="att_reforma__art_51__list_1__point_7" GUID="D2DC2472-C5C0-48F6-801C-4B3AD6CC77AB"><num>7.°</num><content><p>Pagar os vencimentos ao director e mais empregados superiores e subalternos da mesma;</p></content></point>
+                  <point eId="att_reforma__art_51__list_1__point_8" GUID="21ED42E7-C6D8-4E4E-AC63-4847D5DB79D6"><num>8.°</num><content><p>Subministrar os mantimentos e utensilios, vestuario e mais objectos necessarios, e, de accordo com o director, as materias primas para trabalho dos presos.</p></content></point>
+                  <point eId="att_reforma__art_51__list_1__point_9" GUID="2CD23CB0-9853-4288-A83F-CD31372685DC"><num>9.°</num><content><p>Procurar trabalho para os presos e promover a melhor venda dos productos d'esse trabalho;</p></content></point>
+                  <point eId="att_reforma__art_51__list_1__point_10" GUID="D155437C-DCE7-4A9D-AFF5-DB5A5D233B61"><num>10.°</num><content><p>Fiscalisar a economia interna da cadeia em todos os seus ramos, informando de tudo a auctoridade competente;</p></content></point>
+                  <point eId="att_reforma__art_51__list_1__point_11" GUID="ED0E24FF-DD9A-40D7-A26D-99AC8955C470"><num>11.°</num><content><p>Promover a instituição de associações de protecção para os individuos que acabarem de cumprir a pena;</p></content></point>
+                  <point eId="att_reforma__art_51__list_1__point_12" GUID="B96CE015-0824-4705-A5B0-D3A8B4D4CDB1"><num>12.°</num><content><p>Propor ao governo as reformas e providencias que julgar necessarias ou convenientes para o melhor desempenho das suas attribuições.</p></content></point>
+                </list>
+                <paragraph eId="att_reforma__art_51__para_unico" GUID="AAEB0F1B-B0A5-4065-9410-409BB61910B6"><num>§ unico.</num>
+                  <content><p>As funcções d'esta commissão são gratuitas.</p></content>
+                </paragraph>
+              </article>
+              <article eId="att_reforma__art_52" GUID="67A323E7-D2E6-4A15-A543-EAA6A89CF394">
+                <num>Art. 52.°</num>
+                <content><p>A pena de prisão correccional até tres mezes será cumprida nas cadeias comarcãs, construidas de novo ou adaptadas para esse fim.</p></content>
+              </article>
+            </title>
+            <title eId="att_reforma__tit_XI" GUID="25CD1A53-A153-4DC4-853C-1514405D360B">
+              <num>TITULO XI</num>
+              <heading>Das cadeias comarcãs</heading>
+              <article eId="att_reforma__art_53" GUID="741C73A2-B613-464D-A466-AD3608705A04">
+                <intro><p>Haverá na cabeça de cada comarca uma cadeia para o fim indicado no artigo antecedente.</p></intro>
+                <paragraph eId="att_reforma__art_53__para_1" GUID="0646ABFB-9DCA-4A48-AFCB-8B41A69321AE"><num>§ 1.°</num>
+                  <content><p>A despeza necessaria para accommodar a cadeia já existente ao systema de prisão individual e de separação entre os presos, ou para construir outra de novo accommodada a esse systema, será feita á custa dos concelhos de que se compozer a respectiva comarca.</p></content>
+                </paragraph>
+                <paragraph eId="att_reforma__art_53__para_2" GUID="000E935C-BB5E-40BA-9005-31FFB7636E27"><num>§ 2.°</num>
+                  <content><p>Poderá por deliberação das juntas geraes respectivas dispensar-se a construcção de cadeia especial nas comarcas que forem tambem capitaes de districto, devendo n'este caso os réus da comarca cumprir a pena nas cadeias districtaes, para cuja despeza extraordinaria e ordinaria contribuirão os concelhos que constituirem as mencionadas comarcas, na proporção do numero de cellas que n'aquellas cadeias lhes for especialmente destinado.</p></content>
+                </paragraph>
+              </article>
+              <article eId="att_reforma__art_54" GUID="FC58ED39-F328-4A79-BC26-7AAEBB6CECCB">
+                <num>Art. 54.°</num>
+                <intro><p>O calculo e designação definitiva do numero de cellas que deve ter cada uma das cadeias comarcãs regular-se-ha pelo que, na parte applicavel, se acha disposto nos artigos <ref href="#att_reforma__art_43">43.°</ref>, <ref href="#att_reforma__art_51">51.°</ref> e n.° 1.° com respeito ás cadeias districtaes e artigo <ref href="#att_reforma__art_58">58.°</ref></p></intro>
+                <paragraph eId="att_reforma__art_54__para_1" GUID="38A046B2-AAE4-4F7C-81E9-CB2800A4B29C"><num>§ 1.°</num>
+                  <content><p>Haverá em todas as cadeias comarcãs, que tiverem mais de trinta cellas, uma capella para celebração dos actos religiosos.</p></content>
+                </paragraph>
+                <paragraph eId="att_reforma__art_54__para_2" GUID="5F7A723E-767F-40C0-BB9A-B516295C6534"><num>§ 2.°</num>
+                  <content><p>Nas que tiverem menor numero de cellas deverá igualmente have-la sempre que a sua construcção e sustentação se não tornem excessivamente onerosas em attenção aos poucos recursos dos respectivos concelhos.</p></content>
+                </paragraph>
+              </article>
+              <article eId="att_reforma__art_55" GUID="8647C214-6B1C-46D8-B4D5-2DA141AADA0F">
+                <num>Art. 55.°</num>
+                <intro><p>A despeza ordinaria das cadeias comarcãs será feita á custa dos respectivos municipios, e é-lhe applicavel o que com respeito á das cadeias districtaes fica determinado no artigo <ref href="#att_reforma__art_48">48.°</ref> d'esta lei.</p></intro>
+                <paragraph eId="att_reforma__art_55__para_unico" GUID="DDA5E6C0-CAB3-4F83-A3E1-C93C985F8CA1"><num>§ unico.</num>
+                  <content><p>O que se acha disposto nos quatro primeiros numeros do artigo <ref href="#att_reforma__art_49">49.°</ref> é tambem applicavel á receita das cadeias comarcãs, sendo o que faltar preenchido por uma contribuição paga pelos concelhos que compozerem a comarca.</p></content>
+                </paragraph>
+              </article>
+              <article eId="att_reforma__art_56" GUID="18551110-0DE8-4B58-8967-69C1793A9AC2">
+                <num>Art. 56.°</num>
+                <content><p>É extensivo ás cadeias comarcãs o que fica disposto para as districtaes nos artigos <ref href="#att_reforma__art_43">43.°</ref>, <ref href="#att_reforma__art_44">44.°</ref> e <ref href="#att_reforma__art_45">45.°</ref></p></content>
+              </article>
+              <article eId="att_reforma__art_57" GUID="529C5FB8-4B28-4959-BA12-0A8AA3DAB689">
+                <num>Art. 57.°</num>
+                <intro><p>Na capital de cada comarca é creada uma commissão administradora da cadeia comarcã.</p></intro>
+                <paragraph eId="att_reforma__art_57__para_1" GUID="FA871290-A3E2-419F-BD44-2876AE3336F2"><num>§ 1.°</num>
+                  <intro><p>Esta commissão será composta:</p></intro>
+                  <list eId="att_reforma__art_57__para_1__list_1" GUID="B53FD45C-B733-4481-9625-90E0BB5D6583">
+                    <point eId="att_reforma__art_57__para_1__list_1__point_1" GUID="036306F5-2C74-4432-9C29-3C5505C54530"><num>1.°</num><content><p>Do presidente da camara municipal, que será o presidente da commissão;</p></content></point>
+                    <point eId="att_reforma__art_57__para_1__list_1__point_2" GUID="E5505352-1EF5-48AD-910D-226EAD79D75F"><num>2.°</num><content><p>Do administrador do concelho;</p></content></point>
+                    <point eId="att_reforma__art_57__para_1__list_1__point_3" GUID="2BC24300-20DA-4379-83B1-44C108DC02DE"><num>3.°</num><content><p>Do provedor da misericordia, havendo-a;</p></content></point>
+                    <point eId="att_reforma__art_57__para_1__list_1__point_4" GUID="76591EF9-A195-488D-A509-4B20A88502AA"><num>4.°</num><content><p>Do parocho da freguezia mais populosa da cabeça do concelho;</p></content></point>
+                    <point eId="att_reforma__art_57__para_1__list_1__point_5" GUID="AF12C7A1-97FC-4F0D-AE03-832E435CF2B7"><num>5.°</num><content><p>Do medico do partido da camara, ou não o tendo esta de outro medico que a mesma camara nomear, residente na cabeça do concelho;</p></content></point>
+                    <point eId="att_reforma__art_57__para_1__list_1__point_6" GUID="F01B0B95-D3FA-459B-8E7B-1DC841D6D872"><num>6.°</num><content><p>De dois cidadãos nomeados de dois em dois annos pela camara municipal de entre os quarenta maiores contribuintes.</p></content></point>
+                  </list>
+                </paragraph>
+                <paragraph eId="att_reforma__art_57__para_2" GUID="67B37859-ECE0-4824-8B27-8199EF95D7CD"><num>§ 2.°</num>
+                  <content><p>Nas capitaes de comarca que forem tambem capitaes de districto, em logar do presidente da camara será o vice-presidente que fará parte da commissão e a presidirá; em logar do provedor da misericordia será nomeado pela camara mais um cidadão d'entre os quarenta maiores contribuintes; e em logar do parocho da freguezia mais populosa fará parte da commissão o parocho da que for segunda em população.</p></content>
+                </paragraph>
+                <paragraph eId="att_reforma__art_57__para_3" GUID="D6F032E9-3F78-447F-B3CF-8EF533E93A5F"><num>§ 3.°</num>
+                  <content><p>Nas comarcas de Lisboa e Porto fará parte da commissão só o administrador do bairro mais populoso.</p></content>
+                </paragraph>
+              </article>
+              <article eId="att_reforma__art_58" GUID="83B32590-55A2-4A21-902D-A3949A924B5A">
+                <num>Art. 58.°</num>
+                <content><p>É extensivo ás commissões administradoras das cadeias comarcãs, em tudo que lhes for applicavel, o que fica disposto no artigo <ref href="#att_reforma__art_51">51.°</ref> para as commissões administradoras das cadeias districtaes.</p></content>
+              </article>
+            </title>
+            <title eId="att_reforma__tit_XIII" GUID="968FE134-F827-4D1B-843F-05884680D3EA">
+              <num>TITULO XIII</num>
+              <heading>Da prisão preventiva</heading>
+              <article eId="att_reforma__art_59" GUID="E5FE2992-E640-42EE-B1FB-04EC0A7455C8">
+                <num>Art. 59.°</num>
+                <intro><p>A prisão preventiva, quer seja retenção de réus indiciados, quer seja de sentenciados, mas não definitivamente, será tambem nas cadeias comarcãs, e com absoluta e completa separação entre os presos.</p></intro>
+                <paragraph eId="att_reforma__art_59__para_1" GUID="98E342D0-C21E-4F12-865D-9F9030954CD6"><num>§ 1.°</num>
+                  <content><p>É applicavel a estes presos o disposto no § 2.° do artigo <ref href="#att_reforma__art_34">34.°</ref>, excepto quando outra cousa for ordenada pelo juiz competente antes da sentença condemnatoria.</p></content>
+                </paragraph>
+                <paragraph eId="att_reforma__art_59__para_2" GUID="2361A4C0-FF31-4E0B-A5D6-9B1AE6B7AB01"><num>§ 2.°</num>
+                  <content><p>Esta prisão não obriga a trabalho, mas se o preso o pedir, ser-lhe-ha promptamente facilitado, e para elle será todo o producto do seu trabalho.</p></content>
+                </paragraph>
+              </article>
+            </title>
+            <title eId="att_reforma__tit_XIV" GUID="22B5166C-BA66-44FC-B92D-0F4197A259C1">
+              <num>TITULO XIV</num>
+              <heading>Da inspecção e governo das cadeias</heading>
+              <article eId="att_reforma__art_60" GUID="18AAE741-2233-45E5-86A6-24E27958E3E4">
+                <num>Art. 60.°</num>
+                <intro><p>A inspecção e governo de todas as cadeias pertence ao ministerio dos negocios ecclesiasticos e de justiça, a quem compete:</p></intro>
+                <list eId="att_reforma__art_60__list_1" GUID="5CB54366-06F1-4A31-8ADC-C03E942B3645">
+                  <point eId="att_reforma__art_60__list_1__point_1" GUID="E786E1FF-5EF7-4523-8AE2-6A492846044F"><num>1.°</num><content><p>Approvar os planos para a edificação e reparação de qualquer cadeia, ou para a sua apropriação ao systema de prisão individual e de separação entre os presos, bem como designar definitivamente qual o numero de cellas que deve ter cada uma das cadeias districtaes e comarcãs.</p></content></point>
+                  <point eId="att_reforma__art_60__list_1__point_2" GUID="870F37E8-DEFC-4D82-92CE-A79318312C98"><num>2.°</num><content><p>Decretar todos os regulamentos necessarios para a execução da presente lei, e modifica-los ou substitui-los quando for necessario.</p></content></point>
+                </list>
+              </article>
+            </title>
+            <title eId="att_reforma__tit_XV" GUID="2ED7B8D0-DEE8-46B1-A404-3443C5936A14">
+              <num>TITULO XV</num>
+              <heading>Disposições geraes</heading>
+              <article eId="att_reforma__art_61" GUID="0B55D926-A6E2-41D1-B29B-41D51ED4B5E7">
+                <num>Art. 61.°</num>
+                <content><p>Fica auctorisado o governo a vender com as solemnidades legaes os edificios das cadeias que forem do estado, logoque se tenham construido as cadeias penitenciarias.</p></content>
+              </article>
+              <article eId="att_reforma__art_62" GUID="E1C53F84-E2E0-43F2-97B1-A2DC2ED5C960">
+                <num>Art. 62.°</num>
+                <content><p>Ficam igualmente auctorisados os districtos e concelhos a vender do mesmo modo os edificios das cadeias que forem da propriedade dos mesmos districtos ou concelhos, e que se não tiverem podido accommodar ao novo systema de prisão, logoque se tenham construido as novas cadeias districtaes e comarcãs, na conformidade d'esta lei.</p></content>
+              </article>
+              <article eId="att_reforma__art_63" GUID="D78E0796-AA3E-48E5-AB26-CEE397C4CC75">
+                <num>Art. 63.°</num>
+                <content><p>Nas cabeças dos concelhos, que não forem séde da comarca, haverá uma cadeia de simples detenção policial e transito de presos. Estas cadeias serão as actualmente existentes ou outras destinadas para o mesmo fim pelas camaras municipaes respectivas, ás quaes incumbe a despeza com as mencionadas cadeias.</p></content>
+              </article>
+            </title>
+            <title eId="att_reforma__tit_XVI" GUID="DA1D3FC7-01B5-4EA3-8253-EF9763301EBE">
+              <num>TITULO XVI</num>
+              <heading>Disposições transitorias</heading>
+              <article eId="att_reforma__art_64" GUID="E455F3CA-2F2C-4C85-ACC1-25056BFB2791">
+                <num>Art. 64.°</num>
+                <intro><p>Depois da publicação da presente lei, e emquanto não for competentemente declarado em inteira execução o systema de prisão cellular n'ella estabelecido, serão applicadas aos réus nas respectivas sentenças condemnatorias as penas estabelecidas na mesma lei; mas nas ditas sentenças serão tambem condemnados em alternativa os mesmos réus nas penas que pelo codigo penal forem applicaveis a esses crimes.</p></intro>
+                <paragraph eId="att_reforma__art_64__para_unico" GUID="A622EE6D-1A13-4DD8-ADC8-55557EE7A05C"><num>§ unico.</num>
+                  <content><p>Quando ao crime corresponder a pena de morte pelo codigo penal, nunca esta será imposta, mas a do artigo <ref href="#att_reforma__art_3">3.°</ref> d'esta lei, e na alternativa a de trabalhos publicos perpetuos.</p></content>
+                </paragraph>
+              </article>
+            </title>
+          </mainBody>
+          <conclusions>
+            <p class="given"><date date="1867-07-01">Paço, em 1 de julho de 1867</date>.=<signature refersTo="#barjona_a"><person refersTo="#barjona_a">Augusto Cesar Barjona de Freitas</person></signature>.</p>
+            <p class="pub">D. de L. n.° 153, de 13 de julho.</p>
+          </conclusions>
+        </doc>
+      </attachment>
+    </attachments>
+  </act>
+</akomaNtoso>
