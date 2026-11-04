@@ -49,3 +49,13 @@ The text comes from a [scan of a printed collection of laws](https://comemoracoe
 ## Font
 
 The stylesheet embeds Old Standard TT, licensed under the [SIL Open Font License](https://openfontlicense.org/).
+
+## License
+
+The Akoma Ntoso markup, stylesheet rules, scripts and landing page are under the MIT License in `LICENSE`. That license does not cover the items below, which keep their own terms.
+
+- **Text:** The law of 1867, from a scan of a printed collection of laws. Believed to be in the public domain. Details are under Sources above.
+- **Images:** None.
+- **Fonts:** Old Standard TT, under the licenses in `FONT-LICENSES.md`.
+
+This is an unofficial copy, not an official version of the text.
